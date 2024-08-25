@@ -1,0 +1,1119 @@
+[25Aug2024 19:22:56.663] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[25Aug2024 19:22:56.667] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[25Aug2024 19:23:02.558] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Aug2024 19:23:02.678] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/2week-pt2.5/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Aug2024 19:23:03.452] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/2week-pt2.5/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.5/fmlcore-1.20.1-47.3.5.jar is missing mods.toml file
+[25Aug2024 19:23:03.454] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/2week-pt2.5/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.5/javafmllanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[25Aug2024 19:23:03.456] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/2week-pt2.5/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.5/lowcodelanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[25Aug2024 19:23:03.458] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/2week-pt2.5/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.5/mclanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[25Aug2024 19:23:03.983] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[25Aug2024 19:23:08.968] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Aug2024 19:23:09.582] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[25Aug2024 19:23:09.584] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[25Aug2024 19:23:09.597] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Aug2024 19:23:09.770] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.1+mc1.20.1: 84 options available, 0 override(s) found
+[25Aug2024 19:23:09.771] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[25Aug2024 19:23:09.789] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[25Aug2024 19:23:10.207] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 126 options available, 0 override(s) found
+[25Aug2024 19:23:11.686] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[25Aug2024 19:23:12.737] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[25Aug2024 19:23:13.113] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Aug2024 19:23:13.141] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Aug2024 19:23:13.937] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[25Aug2024 19:23:13.962] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Aug2024 19:23:13.966] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Aug2024 19:23:13.978] [main/WARN] [mixin/]: Error loading class: com/hollingsworth/arsnouveau/common/items/SpellCrossbow (java.lang.ClassNotFoundException: com.hollingsworth.arsnouveau.common.items.SpellCrossbow)
+[25Aug2024 19:23:14.165] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[25Aug2024 19:23:14.170] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[25Aug2024 19:23:14.942] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[25Aug2024 19:23:15.025] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[25Aug2024 19:23:15.025] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[25Aug2024 19:23:15.026] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[25Aug2024 19:23:15.158] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[25Aug2024 19:23:16.007] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[25Aug2024 19:23:17.354] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (26.30 s after launch)
+[25Aug2024 19:23:17.665] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Aug2024 19:23:17.667] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Aug2024 19:23:21.380] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[25Aug2024 19:23:21.933] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/experimental/module/GameNerfsModule
+[25Aug2024 19:23:22.927] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 5566 milliseconds
+[25Aug2024 19:23:23.993] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 5 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/tools/module/AncientTomesModule
+[25Aug2024 19:23:24.072] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Aug2024 19:23:24.074] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Aug2024 19:23:24.469] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[25Aug2024 19:23:27.338] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[25Aug2024 19:23:27.820] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[25Aug2024 19:23:27.821] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[25Aug2024 19:23:29.328] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[25Aug2024 19:23:29.349] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[25Aug2024 19:23:29.575] [modloading-worker-0/INFO] [Dungeon Now Loading/]: Hello Forge world!
+[25Aug2024 19:23:29.685] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Aug2024 19:23:29.686] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[25Aug2024 19:23:29.695] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[25Aug2024 19:23:29.703] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[25Aug2024 19:23:29.704] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[25Aug2024 19:23:29.705] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[25Aug2024 19:23:29.706] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[25Aug2024 19:23:29.707] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[25Aug2024 19:23:29.906] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[25Aug2024 19:23:29.906] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[25Aug2024 19:23:29.907] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[25Aug2024 19:23:29.907] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[25Aug2024 19:23:29.910] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[25Aug2024 19:23:29.910] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[25Aug2024 19:23:29.911] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[25Aug2024 19:23:29.919] [modloading-worker-0/INFO] [me.drex.antixray.AntiXray/]: Successfully initialized antixray on forge
+[25Aug2024 19:23:30.188] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
+[25Aug2024 19:23:30.189] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.5 Initialized
+[25Aug2024 19:23:30.874] [modloading-worker-0/INFO] [Better Compatibility Checker/]: Better Compatibility Checker starting
+[25Aug2024 19:23:32.652] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/experimental/module/GameNerfsModule
+[25Aug2024 19:23:32.788] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 5 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/tools/module/AncientTomesModule
+[25Aug2024 19:23:32.813] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[25Aug2024 19:23:32.814] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[25Aug2024 19:23:32.826] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[25Aug2024 19:23:32.827] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[25Aug2024 19:23:32.827] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[25Aug2024 19:23:32.833] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 3 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/tools/item/AncientTomeItem
+[25Aug2024 19:23:32.856] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[25Aug2024 19:23:32.870] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[25Aug2024 19:23:32.871] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[25Aug2024 19:23:32.873] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[25Aug2024 19:23:32.875] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[25Aug2024 19:23:32.883] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[25Aug2024 19:23:32.886] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[25Aug2024 19:23:32.887] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[25Aug2024 19:23:32.894] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[25Aug2024 19:23:32.901] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[25Aug2024 19:23:32.902] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[25Aug2024 19:23:32.909] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[25Aug2024 19:23:32.915] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[25Aug2024 19:23:32.918] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[25Aug2024 19:23:32.922] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[25Aug2024 19:23:32.927] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[25Aug2024 19:23:32.927] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[25Aug2024 19:23:32.928] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[25Aug2024 19:23:32.929] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[25Aug2024 19:23:32.930] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[25Aug2024 19:23:32.932] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[25Aug2024 19:23:32.936] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[25Aug2024 19:23:32.938] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[25Aug2024 19:23:32.942] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[25Aug2024 19:23:32.944] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[25Aug2024 19:23:32.946] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[25Aug2024 19:23:32.948] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[25Aug2024 19:23:32.993] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[25Aug2024 19:23:32.996] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:32.996] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[25Aug2024 19:23:32.997] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:32.998] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[25Aug2024 19:23:33.001] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[25Aug2024 19:23:33.002] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[25Aug2024 19:23:33.004] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[25Aug2024 19:23:33.005] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[25Aug2024 19:23:33.005] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[25Aug2024 19:23:33.009] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[25Aug2024 19:23:33.013] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[25Aug2024 19:23:33.014] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[25Aug2024 19:23:33.014] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[25Aug2024 19:23:33.015] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[25Aug2024 19:23:33.016] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[25Aug2024 19:23:33.017] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[25Aug2024 19:23:33.022] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[25Aug2024 19:23:33.023] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[25Aug2024 19:23:33.024] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[25Aug2024 19:23:33.025] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.026] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[25Aug2024 19:23:33.027] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[25Aug2024 19:23:33.030] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[25Aug2024 19:23:33.035] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.038] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[25Aug2024 19:23:33.053] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[25Aug2024 19:23:33.058] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[25Aug2024 19:23:33.059] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[25Aug2024 19:23:33.060] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[25Aug2024 19:23:33.065] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.065] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[25Aug2024 19:23:33.066] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[25Aug2024 19:23:33.094] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[25Aug2024 19:23:33.096] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[25Aug2024 19:23:33.098] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[25Aug2024 19:23:33.101] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[25Aug2024 19:23:33.106] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[25Aug2024 19:23:33.109] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[25Aug2024 19:23:33.111] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[25Aug2024 19:23:33.113] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[25Aug2024 19:23:33.114] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[25Aug2024 19:23:33.116] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[25Aug2024 19:23:33.118] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[25Aug2024 19:23:33.119] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[25Aug2024 19:23:33.120] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[25Aug2024 19:23:33.120] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[25Aug2024 19:23:33.121] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[25Aug2024 19:23:33.124] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[25Aug2024 19:23:33.131] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[25Aug2024 19:23:33.132] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[25Aug2024 19:23:33.133] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[25Aug2024 19:23:33.134] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[25Aug2024 19:23:33.135] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[25Aug2024 19:23:33.135] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[25Aug2024 19:23:33.136] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[25Aug2024 19:23:33.138] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.139] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[25Aug2024 19:23:33.139] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[25Aug2024 19:23:33.147] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.148] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[25Aug2024 19:23:33.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[25Aug2024 19:23:33.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[25Aug2024 19:23:33.151] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[25Aug2024 19:23:33.152] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[25Aug2024 19:23:33.153] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[25Aug2024 19:23:33.154] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[25Aug2024 19:23:33.154] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[25Aug2024 19:23:33.156] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[25Aug2024 19:23:33.157] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.157] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[25Aug2024 19:23:33.157] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[25Aug2024 19:23:33.158] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[25Aug2024 19:23:33.160] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[25Aug2024 19:23:33.161] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[25Aug2024 19:23:33.163] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[25Aug2024 19:23:33.164] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[25Aug2024 19:23:33.165] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[25Aug2024 19:23:33.165] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[25Aug2024 19:23:33.166] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[25Aug2024 19:23:33.166] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.167] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[25Aug2024 19:23:33.168] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[25Aug2024 19:23:33.171] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[25Aug2024 19:23:33.172] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[25Aug2024 19:23:33.173] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[25Aug2024 19:23:33.175] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[25Aug2024 19:23:33.176] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[25Aug2024 19:23:33.179] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[25Aug2024 19:23:33.180] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[25Aug2024 19:23:33.181] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[25Aug2024 19:23:33.181] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[25Aug2024 19:23:33.182] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[25Aug2024 19:23:33.183] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[25Aug2024 19:23:33.184] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[25Aug2024 19:23:33.185] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[25Aug2024 19:23:33.186] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[25Aug2024 19:23:33.187] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[25Aug2024 19:23:33.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[25Aug2024 19:23:33.190] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[25Aug2024 19:23:33.193] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[25Aug2024 19:23:33.249] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[25Aug2024 19:23:33.255] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.256] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[25Aug2024 19:23:33.257] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[25Aug2024 19:23:33.261] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[25Aug2024 19:23:33.264] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[25Aug2024 19:23:33.280] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[25Aug2024 19:23:33.282] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[25Aug2024 19:23:33.283] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[25Aug2024 19:23:33.284] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[25Aug2024 19:23:33.292] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[25Aug2024 19:23:33.300] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[25Aug2024 19:23:33.301] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[25Aug2024 19:23:33.303] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[25Aug2024 19:23:33.305] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[25Aug2024 19:23:33.310] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.316] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[25Aug2024 19:23:33.318] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.325] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[25Aug2024 19:23:33.326] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[25Aug2024 19:23:33.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[25Aug2024 19:23:33.335] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[25Aug2024 19:23:33.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[25Aug2024 19:23:33.345] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.346] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[25Aug2024 19:23:33.351] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[25Aug2024 19:23:33.352] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[25Aug2024 19:23:33.353] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[25Aug2024 19:23:33.353] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[25Aug2024 19:23:33.357] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[25Aug2024 19:23:33.358] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[25Aug2024 19:23:33.359] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[25Aug2024 19:23:33.380] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[25Aug2024 19:23:33.392] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[25Aug2024 19:23:33.399] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[25Aug2024 19:23:33.402] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[25Aug2024 19:23:33.404] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[25Aug2024 19:23:33.431] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[25Aug2024 19:23:33.437] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[25Aug2024 19:23:33.440] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[25Aug2024 19:23:33.441] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[25Aug2024 19:23:33.442] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[25Aug2024 19:23:33.445] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[25Aug2024 19:23:33.446] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[25Aug2024 19:23:33.450] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[25Aug2024 19:23:33.451] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[25Aug2024 19:23:33.452] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[25Aug2024 19:23:33.550] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/2week-pt2.5/servidor_minecraft/config/quark-common.toml is not correct. Correcting
+[25Aug2024 19:23:33.995] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[25Aug2024 19:23:34.104] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[25Aug2024 19:23:35.362] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/tools/loot/EnchantTome
+[25Aug2024 19:23:37.876] [main/INFO] [Moonlight/]: Initialized block sets in 58ms
+[25Aug2024 19:23:40.352] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[25Aug2024 19:23:40.407] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
+[25Aug2024 19:23:40.563] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[25Aug2024 19:23:40.567] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[25Aug2024 19:23:41.019] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[25Aug2024 19:23:41.074] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[25Aug2024 19:23:41.319] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[25Aug2024 19:23:41.354] [modloading-worker-0/INFO] [Better Compatibility Checker/]: Better Compatibility Checker setup
+[25Aug2024 19:23:41.398] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[25Aug2024 19:23:41.422] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[25Aug2024 19:23:41.422] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[25Aug2024 19:23:41.430] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[25Aug2024 19:23:41.444] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[25Aug2024 19:23:41.445] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[25Aug2024 19:23:41.566] [modloading-worker-0/INFO] [com.betterchunkloading.BetterChunkLoading/]: betterchunkloading mod initialized
+[25Aug2024 19:23:41.593] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
+[25Aug2024 19:23:41.595] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
+[25Aug2024 19:23:41.597] [modloading-worker-0/INFO] [com.chunksending.ChunkSending/]: chunksending mod initialized
+[25Aug2024 19:23:41.622] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[25Aug2024 19:23:41.622] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[25Aug2024 19:23:41.656] [main/INFO] [journeymap/]: Initializing Packet Registries
+[25Aug2024 19:23:41.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.1 Target: null
+[25Aug2024 19:23:41.709] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[25Aug2024 19:23:41.807] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[25Aug2024 19:23:41.807] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[25Aug2024 19:23:41.874] [main/INFO] [Moonlight/]: Initialized color sets in 77ms
+[25Aug2024 19:23:41.906] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[25Aug2024 19:23:41.907] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Aug2024 19:23:41.999] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.5 Target: 47.3.7
+[25Aug2024 19:23:42.000] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[25Aug2024 19:23:42.096] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.5.jar%23250!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.5.jar%23250!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[25Aug2024 19:23:42.098] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[25Aug2024 19:23:42.371] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[25Aug2024 19:23:42.377] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.spawn.compat.SpawnerHwylaPlugin
+[25Aug2024 19:23:42.379] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.ench.compat.EnchHwylaPlugin
+[25Aug2024 19:23:42.380] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.adventure.compat.AdventureHwylaPlugin
+[25Aug2024 19:23:42.381] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at io.github.mortuusars.exposure.integration.jade.ExposureJadePlugin
+[25Aug2024 19:23:42.384] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[25Aug2024 19:23:42.384] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[25Aug2024 19:23:42.394] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[25Aug2024 19:23:42.398] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[25Aug2024 19:23:42.400] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[25Aug2024 19:23:42.403] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[25Aug2024 19:23:42.963] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.20 Target: null
+[25Aug2024 19:23:42.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[25Aug2024 19:23:43.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.5 Target: null
+[25Aug2024 19:23:43.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[25Aug2024 19:23:43.165] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.18 Target: 17.1.18
+[25Aug2024 19:23:43.165] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[25Aug2024 19:23:43.194] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.12.14 Target: null
+[25Aug2024 19:23:43.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[25Aug2024 19:23:43.321] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Aug2024 19:23:43.326] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[25Aug2024 19:23:43.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[25Aug2024 19:23:43.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[25Aug2024 19:23:43.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[25Aug2024 19:23:43.526] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[25Aug2024 19:23:43.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.10 Target: null
+[25Aug2024 19:23:43.541] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[25Aug2024 19:23:43.580] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[25Aug2024 19:23:43.581] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[25Aug2024 19:23:43.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.7.0 Target: null
+[25Aug2024 19:23:43.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
+[25Aug2024 19:23:43.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.6.8 Target: 1.6.8
+[25Aug2024 19:23:44.168] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/2week-pt2.5/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23249!/assets/.mcassetsroot' uses unexpected schema
+[25Aug2024 19:23:44.169] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/2week-pt2.5/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23249!/data/.mcassetsroot' uses unexpected schema
+[25Aug2024 19:23:47.800] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[25Aug2024 19:23:48.156] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[25Aug2024 19:23:49.016] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.7.0.jar
+[25Aug2024 19:23:51.300] [main/INFO] [placebo/]: Registered 34 additional loot tables.
+[25Aug2024 19:23:51.324] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.327] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.355] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.360] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.372] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.372] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.373] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.377] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.379] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.382] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.383] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.396] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.404] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.420] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.421] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.427] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.429] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.430] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.430] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.431] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.437] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.438] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.439] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.440] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.441] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.442] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.451] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.454] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.455] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[25Aug2024 19:23:51.456] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.461] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.470] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[25Aug2024 19:23:51.471] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.473] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.475] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.478] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.479] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.480] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.486] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.487] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.489] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.492] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.496] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.501] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.503] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.505] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.505] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.506] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.507] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.508] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.509] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.510] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.510] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.521] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.528] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.529] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.532] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.536] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.548] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.548] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.554] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.556] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.557] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.559] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.561] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.579] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.580] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.582] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[25Aug2024 19:23:51.586] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.592] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.599] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.605] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.606] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.606] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.606] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.610] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.613] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.621] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.622] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.622] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.627] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.630] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[25Aug2024 19:23:51.632] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.633] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.635] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.637] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.639] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.643] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.647] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.647] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.648] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.648] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.656] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.656] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.657] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.658] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.659] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.662] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.662] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.663] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.663] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.663] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.664] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.664] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.665] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.668] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.670] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.672] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.673] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.677] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.678] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.681] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.682] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.683] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.685] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.686] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.686] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.687] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.694] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.695] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.696] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.696] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.698] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[25Aug2024 19:23:51.700] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.701] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.708] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.710] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[25Aug2024 19:23:51.710] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.711] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.713] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.714] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.716] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.718] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.722] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.723] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.728] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[25Aug2024 19:23:51.733] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.733] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.737] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.737] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.739] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.740] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[25Aug2024 19:23:51.742] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.743] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.745] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.747] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[25Aug2024 19:23:51.748] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[25Aug2024 19:23:51.751] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[25Aug2024 19:23:51.752] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.755] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[25Aug2024 19:23:51.757] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[25Aug2024 19:23:51.757] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[25Aug2024 19:23:51.764] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 35 recipes
+[25Aug2024 19:23:51.765] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function cataclysm_ut:maledictus
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected key at position 28: ...=!p2,nbt={<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected key at position 28: ...=!p2,nbt={<--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[25Aug2024 19:23:52.005] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 3357 recipe advancements
+[25Aug2024 19:23:52.024] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 826 advancements
+[25Aug2024 19:23:52.039] [main/INFO] [placebo/]: Registered 26 additional recipes.
+[25Aug2024 19:23:52.077] [main/INFO] [io.github.mortuusars.exposure.Exposure/]: Loading exposure lenses:
+[25Aug2024 19:23:52.078] [main/INFO] [io.github.mortuusars.exposure.Exposure/]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
+[25Aug2024 19:23:52.091] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[25Aug2024 19:23:52.101] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[25Aug2024 19:23:52.110] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[25Aug2024 19:23:52.112] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[25Aug2024 19:23:52.112] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[25Aug2024 19:23:52.113] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[25Aug2024 19:23:52.114] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[25Aug2024 19:23:52.114] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[25Aug2024 19:23:52.114] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[25Aug2024 19:23:52.115] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[25Aug2024 19:23:52.115] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[25Aug2024 19:23:52.115] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[25Aug2024 19:23:52.145] [main/INFO] [placebo/]: Registered 28 gear_sets.
+[25Aug2024 19:23:52.154] [main/INFO] [Apotheosis : Enchantment/]: Registered 34 enchanting_stats.
+[25Aug2024 19:23:52.157] [main/INFO] [Apotheosis : Adventure/]: Registered 6 rarities.
+[25Aug2024 19:23:52.180] [main/INFO] [Apotheosis : Adventure/]: Registered 81 affixes.
+[25Aug2024 19:23:52.190] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category helmetRequired: 3; Provided: 2
+[25Aug2024 19:23:52.191] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category bootsRequired: 3; Provided: 2
+[25Aug2024 19:23:52.192] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bowRequired: 5; Provided: 4
+[25Aug2024 19:23:52.192] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category crossbowRequired: 5; Provided: 4
+[25Aug2024 19:23:52.192] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category pickaxeRequired: 5; Provided: 4
+[25Aug2024 19:23:52.192] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shovelRequired: 5; Provided: 4
+[25Aug2024 19:23:52.193] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shieldRequired: 5; Provided: 4
+[25Aug2024 19:23:52.193] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category helmetRequired: 4; Provided: 2
+[25Aug2024 19:23:52.193] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bootsRequired: 4; Provided: 2
+[25Aug2024 19:23:52.210] [main/INFO] [Apotheosis : Adventure/]: Registered 21 gems.
+[25Aug2024 19:23:52.229] [main/INFO] [Apotheosis : Adventure/]: Registered 100 affix_loot_entries.
+[25Aug2024 19:23:52.237] [main/INFO] [Apotheosis : Adventure/]: Registered 24 bosses.
+[25Aug2024 19:23:52.250] [main/INFO] [Apotheosis : Adventure/]: Registered 8 rogue_spawners.
+[25Aug2024 19:23:52.254] [main/INFO] [Apotheosis : Adventure/]: Registered 5 minibosses.
+[25Aug2024 19:23:52.263] [main/INFO] [Apotheosis : Village/]: Registered 29 wanderer_trades.
+[25Aug2024 19:23:52.871] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Aug2024 19:23:52.871] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Aug2024 19:23:52.872] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Aug2024 19:23:52.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Aug2024 19:23:52.974] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Aug2024 19:23:53.021] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Aug2024 19:23:53.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Aug2024 19:23:53.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Aug2024 19:23:53.125] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Aug2024 19:23:53.125] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Aug2024 19:23:53.146] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Aug2024 19:23:53.168] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
+[25Aug2024 19:23:53.486] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[25Aug2024 19:23:53.487] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[25Aug2024 19:23:53.487] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[25Aug2024 19:23:53.728] [Server thread/INFO] [spark/]: Starting background profiler...
+[25Aug2024 19:23:54.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Aug2024 19:23:55.007] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterchunkloading.json
+[25Aug2024 19:24:06.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Aug2024 19:24:09.279] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:09.450] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:09.468] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:09.519] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:09.547] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:09.597] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:09.737] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:09.829] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:10.096] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:10.748] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2024 19:24:11.103] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[25Aug2024 19:24:11.406] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5315 ms
+[25Aug2024 19:24:11.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.271s)! For help, type "help"
+[25Aug2024 19:24:11.522] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Aug2024 19:24:11.587] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: chunksending.json
+[25Aug2024 19:24:11.588] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[25Aug2024 19:24:11.589] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[25Aug2024 19:24:11.619] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[25Aug2024 19:24:11.617] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[25Aug2024 19:24:11.622] [Server thread/WARN] [ModernFix/]: Dedicated server took 80.572 seconds to load
+[25Aug2024 19:24:13.917] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[25Aug2024 19:24:50.475] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:24:50.483] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:24:50.486] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BEAT04[/100.109.95.66:53178] logged in with entity id 883 at (-135.99365477620822, 110.0, 19.886855633338552)
+[25Aug2024 19:24:50.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 joined the game
+[25Aug2024 19:24:51.261] [Server thread/INFO] [Jade/]: Syncing config to BEAT04 (d475b672-0b3a-38f1-8067-b1c696a6be64)
+[25Aug2024 19:24:53.531] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of BEAT04 (18)
+[25Aug2024 19:24:53.538] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to BEAT04
+[25Aug2024 19:24:53.542] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3019ms or 60 ticks behind
+[25Aug2024 19:24:53.623] [Server thread/INFO] [do_a_barrel_roll/]: Client of BEAT04 accepted server config.
+[25Aug2024 19:24:54.134] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d475b672-0b3a-38f1-8067-b1c696a6be64
+[25Aug2024 19:24:55.131] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d475b672-0b3a-38f1-8067-b1c696a6be64
+[25Aug2024 19:24:55.134] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player BEAT04 (d475b672-0b3a-38f1-8067-b1c696a6be64) successfully connected to voice chat
+[25Aug2024 19:26:21.688] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:26:21.709] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:26:21.710] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KikoElCrazy[/100.111.176.84:53466] logged in with entity id 1408 at (-140.22914125993537, 111.0, -41.73675974153629)
+[25Aug2024 19:26:21.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy joined the game
+[25Aug2024 19:26:22.061] [Server thread/INFO] [Jade/]: Syncing config to KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95)
+[25Aug2024 19:26:22.994] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of KikoElCrazy (18)
+[25Aug2024 19:26:22.997] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to KikoElCrazy
+[25Aug2024 19:26:23.601] [Server thread/INFO] [do_a_barrel_roll/]: Client of KikoElCrazy accepted server config.
+[25Aug2024 19:26:27.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Creative Mode]
+[25Aug2024 19:26:28.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:26:31.401] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 19:26:32.400] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 19:26:32.403] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95) successfully connected to voice chat
+[25Aug2024 19:26:50.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Creative Mode]
+[25Aug2024 19:26:55.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:27:36.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy is bleeding. KikoElCrazy was slain by Grizzly Bear
+[25Aug2024 19:27:36.503] [Server thread/WARN] [tombstone/]: The death event of the player KikoElCrazy was canceled by another mod
+[25Aug2024 19:27:36.716] [Server thread/INFO] [tombstone/]: The player KikoElCrazy has successfully been saved
+[25Aug2024 19:27:44.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy was slain by Grizzly Bear
+[25Aug2024 19:27:45.840] [Server thread/INFO] [do_a_barrel_roll/]: Client of KikoElCrazy accepted server config.
+[25Aug2024 19:31:04.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Creative Mode]
+[25Aug2024 19:31:05.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:31:06.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:31:18.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:31:23.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:31:29.196] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:31:29.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:31:29.205] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Zxn1[/100.121.244.112:53848] logged in with entity id 5161 at (333.4189378109415, 75.0, 27.16635740548172)
+[25Aug2024 19:31:29.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 joined the game
+[25Aug2024 19:31:29.398] [Server thread/INFO] [Jade/]: Syncing config to Zxn1 (1ff189ef-e072-384a-819d-09fe7f958a09)
+[25Aug2024 19:31:30.196] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Zxn1 (18)
+[25Aug2024 19:31:30.202] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Zxn1
+[25Aug2024 19:31:30.967] [Server thread/INFO] [do_a_barrel_roll/]: Client of Zxn1 accepted server config.
+[25Aug2024 19:31:31.084] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1ff189ef-e072-384a-819d-09fe7f958a09
+[25Aug2024 19:31:32.085] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1ff189ef-e072-384a-819d-09fe7f958a09
+[25Aug2024 19:31:32.086] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Zxn1 (1ff189ef-e072-384a-819d-09fe7f958a09) successfully connected to voice chat
+[25Aug2024 19:31:32.580] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[25Aug2024 19:31:37.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:31:49.817] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2244ms or 44 ticks behind
+[25Aug2024 19:32:05.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:32:41.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy is bleeding. KikoElCrazy was slain by Alligator Snapping Turtle
+[25Aug2024 19:32:41.147] [Server thread/WARN] [tombstone/]: The death event of the player KikoElCrazy was canceled by another mod
+[25Aug2024 19:32:41.202] [Server thread/INFO] [tombstone/]: The player KikoElCrazy has successfully been saved
+[25Aug2024 19:32:59.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:33:10.140] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
+[25Aug2024 19:33:23.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:33:33.943] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[25Aug2024 19:33:34.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:33:45.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:33:56.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:34:38.852] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KikoElCrazy lost connection: Disconnected
+[25Aug2024 19:34:38.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy left the game
+[25Aug2024 19:34:38.859] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client KikoElCrazy
+[25Aug2024 19:37:18.272] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:37:18.276] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:37:18.277] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KikoElCrazy[/100.111.176.84:50215] logged in with entity id 7715 at (240.60247375392825, 67.5, -256.24321531828554)
+[25Aug2024 19:37:18.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy joined the game
+[25Aug2024 19:37:18.390] [Server thread/INFO] [Jade/]: Syncing config to KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95)
+[25Aug2024 19:37:19.526] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of KikoElCrazy (18)
+[25Aug2024 19:37:19.526] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to KikoElCrazy
+[25Aug2024 19:37:20.219] [Server thread/INFO] [do_a_barrel_roll/]: Client of KikoElCrazy accepted server config.
+[25Aug2024 19:37:27.950] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 19:37:28.952] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 19:37:28.955] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95) successfully connected to voice chat
+[25Aug2024 19:38:34.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported KikoElCrazy to Zxn1]
+[25Aug2024 19:40:40.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Gave 5 [Coal] to BEAT04]
+[25Aug2024 19:41:14.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:41:36.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy is bleeding. KikoElCrazy was blown up by Creeper
+[25Aug2024 19:41:36.609] [Server thread/WARN] [tombstone/]: The death event of the player KikoElCrazy was canceled by another mod
+[25Aug2024 19:41:36.653] [Server thread/INFO] [tombstone/]: The player KikoElCrazy has successfully been saved
+[25Aug2024 19:41:39.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:45:08.897] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ViralataJr[/100.112.69.47:50407] logged in with entity id 10587 at (-7.5, 101.0, -8.5)
+[25Aug2024 19:45:08.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr joined the game
+[25Aug2024 19:45:09.426] [Server thread/INFO] [Jade/]: Syncing config to ViralataJr (a5b904dd-05c3-3759-9b11-ab5cc6b329ee)
+[25Aug2024 19:45:42.909] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ViralataJr (18)
+[25Aug2024 19:45:42.911] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ViralataJr
+[25Aug2024 19:45:43.507] [Server thread/INFO] [do_a_barrel_roll/]: Client of ViralataJr accepted server config.
+[25Aug2024 19:45:44.705] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a5b904dd-05c3-3759-9b11-ab5cc6b329ee
+[25Aug2024 19:45:45.705] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a5b904dd-05c3-3759-9b11-ab5cc6b329ee
+[25Aug2024 19:45:45.707] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ViralataJr (a5b904dd-05c3-3759-9b11-ab5cc6b329ee) successfully connected to voice chat
+[25Aug2024 19:46:22.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[25Aug2024 19:47:06.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr is bleeding. ViralataJr was slain by Zombie
+[25Aug2024 19:47:06.199] [Server thread/WARN] [tombstone/]: The death event of the player ViralataJr was canceled by another mod
+[25Aug2024 19:47:06.219] [Server thread/INFO] [tombstone/]: The player ViralataJr has successfully been saved
+[25Aug2024 19:47:12.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported ViralataJr to BEAT04]
+[25Aug2024 19:47:44.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported BEAT04 to Zxn1]
+[25Aug2024 19:47:59.008] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ViralataJr lost connection: Disconnected
+[25Aug2024 19:47:59.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr left the game
+[25Aug2024 19:47:59.012] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ViralataJr
+[25Aug2024 19:48:07.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 is bleeding. BEAT04 was shot by Karen the Ghost Hunter
+[25Aug2024 19:48:07.308] [Server thread/WARN] [tombstone/]: The death event of the player BEAT04 was canceled by another mod
+[25Aug2024 19:48:07.321] [Server thread/INFO] [tombstone/]: The player BEAT04 has successfully been saved
+[25Aug2024 19:48:07.461] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Stray['Karen the Ghost Hunter'/12423, l='ServerLevel[world]', x=-118.37, y=64.00, z=-249.42] died: Karen the Ghost Hunter was slain by Zxn1
+[25Aug2024 19:48:27.161] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:48:27.164] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:48:27.164] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ViralataJr[/100.112.69.47:50532] logged in with entity id 12969 at (-144.30000001192093, 110.0, -24.30000001192093)
+[25Aug2024 19:48:27.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr joined the game
+[25Aug2024 19:48:27.387] [Server thread/INFO] [Jade/]: Syncing config to ViralataJr (a5b904dd-05c3-3759-9b11-ab5cc6b329ee)
+[25Aug2024 19:48:59.713] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ViralataJr (18)
+[25Aug2024 19:48:59.715] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ViralataJr
+[25Aug2024 19:49:01.271] [Server thread/INFO] [do_a_barrel_roll/]: Client of ViralataJr accepted server config.
+[25Aug2024 19:49:01.553] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a5b904dd-05c3-3759-9b11-ab5cc6b329ee
+[25Aug2024 19:49:02.555] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a5b904dd-05c3-3759-9b11-ab5cc6b329ee
+[25Aug2024 19:49:02.556] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ViralataJr (a5b904dd-05c3-3759-9b11-ab5cc6b329ee) successfully connected to voice chat
+[25Aug2024 19:49:07.813] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KikoElCrazy lost connection: Disconnected
+[25Aug2024 19:49:07.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy left the game
+[25Aug2024 19:49:07.816] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client KikoElCrazy
+[25Aug2024 19:49:20.174] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:49:20.177] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:49:20.177] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KikoElCrazy[/100.111.176.84:50489] logged in with entity id 13677 at (-115.89580257832336, 64.0, -246.503316155073)
+[25Aug2024 19:49:20.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy joined the game
+[25Aug2024 19:49:20.510] [Server thread/INFO] [Jade/]: Syncing config to KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95)
+[25Aug2024 19:49:20.694] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of KikoElCrazy (18)
+[25Aug2024 19:49:20.696] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to KikoElCrazy
+[25Aug2024 19:49:24.869] [Server thread/INFO] [do_a_barrel_roll/]: Client of KikoElCrazy accepted server config.
+[25Aug2024 19:49:26.983] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 19:49:27.985] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 19:49:27.986] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95) successfully connected to voice chat
+[25Aug2024 19:49:29.506] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Zxn1 lost connection: Disconnected
+[25Aug2024 19:49:29.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 left the game
+[25Aug2024 19:49:29.507] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Zxn1
+[25Aug2024 19:51:37.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Suit Up]
+[25Aug2024 19:51:44.064] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:51:44.067] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 19:51:44.067] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Zxn1[/100.121.244.112:54443] logged in with entity id 16043 at (-157.27154343210188, 99.0, -284.1769607913159)
+[25Aug2024 19:51:44.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 joined the game
+[25Aug2024 19:51:44.351] [Server thread/INFO] [Jade/]: Syncing config to Zxn1 (1ff189ef-e072-384a-819d-09fe7f958a09)
+[25Aug2024 19:51:44.561] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Zxn1 (18)
+[25Aug2024 19:51:44.562] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Zxn1
+[25Aug2024 19:51:46.233] [Server thread/INFO] [do_a_barrel_roll/]: Client of Zxn1 accepted server config.
+[25Aug2024 19:51:46.243] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1ff189ef-e072-384a-819d-09fe7f958a09
+[25Aug2024 19:51:47.245] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1ff189ef-e072-384a-819d-09fe7f958a09
+[25Aug2024 19:51:47.247] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Zxn1 (1ff189ef-e072-384a-819d-09fe7f958a09) successfully connected to voice chat
+[25Aug2024 19:52:09.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported ViralataJr to Zxn1]
+[25Aug2024 19:53:23.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy has made the advancement [Knowledge of Death]
+[25Aug2024 19:53:23.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy has made the advancement [Ashes 'n Bones]
+[25Aug2024 19:53:39.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Stone Age]
+[25Aug2024 19:54:06.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 is bleeding. BEAT04 was slain by Zombie
+[25Aug2024 19:54:06.745] [Server thread/WARN] [tombstone/]: The death event of the player BEAT04 was canceled by another mod
+[25Aug2024 19:54:06.807] [Server thread/INFO] [tombstone/]: The player BEAT04 has successfully been saved
+[25Aug2024 19:54:43.930] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[25Aug2024 19:55:01.851] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2928ms or 58 ticks behind
+[25Aug2024 19:55:22.278] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[25Aug2024 19:55:57.549] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KikoElCrazy lost connection: Disconnected
+[25Aug2024 19:55:57.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy left the game
+[25Aug2024 19:55:57.551] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client KikoElCrazy
+[25Aug2024 19:56:55.159] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Honeyed Archer'/18900, l='ServerLevel[world]', x=-198.83, y=107.04, z=-281.96] died: Honeyed Archer was slain by Zxn1
+[25Aug2024 19:57:18.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:57:19.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:57:21.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:57:25.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:57:27.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:57:29.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:57:30.631] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/848, l='ServerLevel[world]', x=-130.70, y=109.00, z=20.50] died, message: 'Fletcher was slain by DILON BABY'
+[25Aug2024 19:57:39.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:57:42.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:57:46.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:57:48.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:57:54.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:57:55.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:57:56.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Isn't It Iron Pick]
+[25Aug2024 19:58:03.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:58:06.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:58:11.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:58:12.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:58:13.106] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/847, l='ServerLevel[world]', x=-131.70, y=108.00, z=16.37] died, message: 'Fletcher was slain by BEAT04'
+[25Aug2024 19:58:13.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 has made the advancement [Crime in Town]
+[25Aug2024 19:58:16.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:58:17.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:58:32.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported ViralataJr to Zxn1]
+[25Aug2024 19:58:38.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:58:39.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:58:42.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:58:43.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:58:49.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:58:50.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:58:52.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:58:53.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 19:59:01.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Summoned new Unemployed]
+[25Aug2024 19:59:03.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 19:59:04.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 20:00:03.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 20:00:05.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 20:00:14.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 20:00:15.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 20:00:37.069] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:00:37.073] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:00:37.073] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KikoElCrazy[/100.111.176.84:51004] logged in with entity id 21702 at (-124.93127605086723, 68.0, -251.0136976480916)
+[25Aug2024 20:00:37.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy joined the game
+[25Aug2024 20:00:37.267] [Server thread/INFO] [Jade/]: Syncing config to KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95)
+[25Aug2024 20:00:37.469] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of KikoElCrazy (18)
+[25Aug2024 20:00:37.471] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to KikoElCrazy
+[25Aug2024 20:00:39.307] [Server thread/INFO] [do_a_barrel_roll/]: Client of KikoElCrazy accepted server config.
+[25Aug2024 20:00:39.361] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 20:00:40.362] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 20:00:40.362] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95) successfully connected to voice chat
+[25Aug2024 20:00:45.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 20:00:47.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 20:01:31.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 20:01:40.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 20:01:55.491] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[25Aug2024 20:02:58.516] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
+[25Aug2024 20:03:40.897] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[25Aug2024 20:03:43.093] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ViralataJr moved too quickly! 0.14156947502794992,2.176759275064242,-9.897972398243667
+[25Aug2024 20:04:00.132] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KikoElCrazy lost connection: Disconnected
+[25Aug2024 20:04:00.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy left the game
+[25Aug2024 20:04:00.135] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client KikoElCrazy
+[25Aug2024 20:04:00.982] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-262, y=65, z=-382} BlockPos{x=-263, y=63, z=-381}
+[25Aug2024 20:04:00.999] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-262, y=65, z=-382} BlockPos{x=-263, y=63, z=-381}
+[25Aug2024 20:04:01.080] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-262, y=65, z=-382} BlockPos{x=-263, y=63, z=-381}
+[25Aug2024 20:04:08.514] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12641ms or 252 ticks behind
+[25Aug2024 20:04:25.955] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2482ms or 49 ticks behind
+[25Aug2024 20:04:26.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Gave 8 [Chest] to BEAT04]
+[25Aug2024 20:04:43.525] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2602ms or 52 ticks behind
+[25Aug2024 20:05:01.376] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2853ms or 57 ticks behind
+[25Aug2024 20:05:19.922] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3549ms or 70 ticks behind
+[25Aug2024 20:05:38.067] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3194ms or 63 ticks behind
+[25Aug2024 20:05:51.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Gave 1 [Redstone Torch] to BEAT04]
+[25Aug2024 20:06:03.680] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10657ms or 213 ticks behind
+[25Aug2024 20:06:10.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BEAT04 moved wrongly!
+[25Aug2024 20:06:11.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BEAT04 moved wrongly!
+[25Aug2024 20:06:29.808] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11135ms or 222 ticks behind
+[25Aug2024 20:06:43.051] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:06:43.056] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:06:43.057] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KikoElCrazy[/100.111.176.84:50084] logged in with entity id 27535 at (-85.6504761883333, 67.0, -261.8205166245967)
+[25Aug2024 20:06:43.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy joined the game
+[25Aug2024 20:06:43.228] [Server thread/INFO] [Jade/]: Syncing config to KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95)
+[25Aug2024 20:06:44.307] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of KikoElCrazy (18)
+[25Aug2024 20:06:44.307] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to KikoElCrazy
+[25Aug2024 20:06:45.024] [Server thread/INFO] [do_a_barrel_roll/]: Client of KikoElCrazy accepted server config.
+[25Aug2024 20:06:51.892] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 20:06:52.883] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 20:06:52.884] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95) successfully connected to voice chat
+[25Aug2024 20:06:56.157] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11384ms or 227 ticks behind
+[25Aug2024 20:07:04.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Dungeon Now Loading]
+[25Aug2024 20:07:16.829] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5706ms or 114 ticks behind
+[25Aug2024 20:07:36.419] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4596ms or 91 ticks behind
+[25Aug2024 20:07:50.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Gave 1 [Super Glue] to BEAT04]
+[25Aug2024 20:07:52.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-153, y=100, z=-280} BlockPos{x=-154, y=98, z=-278}
+[25Aug2024 20:07:52.649] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-153, y=100, z=-280} BlockPos{x=-154, y=98, z=-278}
+[25Aug2024 20:07:52.701] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-153, y=100, z=-280} BlockPos{x=-154, y=98, z=-278}
+[25Aug2024 20:07:57.975] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6602ms or 132 ticks behind
+[25Aug2024 20:08:56.843] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:08:56.852] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:08:56.852] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cranberii3[/100.71.206.57:64012] logged in with entity id 29261 at (-115.24487436098435, 102.0, -94.4027186543044)
+[25Aug2024 20:08:56.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 joined the game
+[25Aug2024 20:08:57.100] [Server thread/INFO] [Jade/]: Syncing config to cranberii3 (916b8d07-f619-3b77-9447-c3eb1e88a6e2)
+[25Aug2024 20:08:58.143] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of cranberii3 (18)
+[25Aug2024 20:08:58.145] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to cranberii3
+[25Aug2024 20:08:58.775] [Server thread/INFO] [do_a_barrel_roll/]: Client of cranberii3 accepted server config.
+[25Aug2024 20:08:59.400] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 916b8d07-f619-3b77-9447-c3eb1e88a6e2
+[25Aug2024 20:08:59.505] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[25Aug2024 20:09:00.402] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 916b8d07-f619-3b77-9447-c3eb1e88a6e2
+[25Aug2024 20:09:00.403] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player cranberii3 (916b8d07-f619-3b77-9447-c3eb1e88a6e2) successfully connected to voice chat
+[25Aug2024 20:09:16.800] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2327ms or 46 ticks behind
+[25Aug2024 20:09:22.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Monster Hunter]
+[25Aug2024 20:09:35.207] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[25Aug2024 20:09:36.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 20:09:41.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 20:09:48.318] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Patrice the Dark'/29171, l='ServerLevel[world]', x=-127.30, y=89.00, z=-375.98] died: Patrice the Dark was slain by Zxn1
+[25Aug2024 20:10:41.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Gave 50 [Coal] to BEAT04]
+[25Aug2024 20:13:43.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported BEAT04 to ViralataJr]
+[25Aug2024 20:14:46.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 is bleeding. Zxn1 was slain by KikoElCrazy
+[25Aug2024 20:14:46.228] [Server thread/WARN] [tombstone/]: The death event of the player Zxn1 was canceled by another mod
+[25Aug2024 20:14:46.268] [Server thread/INFO] [tombstone/]: The player Zxn1 has successfully been saved
+[25Aug2024 20:15:27.949] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Stefan the Shiny'/31276, l='ServerLevel[world]', x=-333.23, y=112.00, z=-166.53] died: Stefan the Shiny was slain by BEAT04
+[25Aug2024 20:15:49.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported BEAT04 to KikoElCrazy]
+[25Aug2024 20:16:09.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Gave 3 [Bone] to BEAT04]
+[25Aug2024 20:16:14.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 has made the advancement [Cover Me with Diamonds]
+[25Aug2024 20:16:18.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Gave 3 [Bone] to BEAT04]
+[25Aug2024 20:16:34.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 has made the advancement [Acquire Hardware]
+[25Aug2024 20:16:56.379] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[25Aug2024 20:17:20.329] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8956ms or 179 ticks behind
+[25Aug2024 20:17:40.164] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4841ms or 96 ticks behind
+[25Aug2024 20:18:54.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy has made the advancement [Cover Me with Diamonds]
+[25Aug2024 20:19:15.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 20:19:23.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 20:22:39.474] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[25Aug2024 20:23:49.845] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[25Aug2024 20:23:53.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 has made the advancement [Mine? Mine? Mine?]
+[25Aug2024 20:28:01.834] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2161ms or 43 ticks behind
+[25Aug2024 20:28:07.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 has made the advancement [Apothic Affixes]
+[25Aug2024 20:28:07.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 has made the advancement [How'd You Get This?]
+[25Aug2024 20:28:24.291] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7468ms or 149 ticks behind
+[25Aug2024 20:28:49.454] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10181ms or 203 ticks behind
+[25Aug2024 20:28:56.705] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KikoElCrazy lost connection: Disconnected
+[25Aug2024 20:28:56.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy left the game
+[25Aug2024 20:28:56.707] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client KikoElCrazy
+[25Aug2024 20:29:04.170] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:29:04.174] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:29:04.175] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KikoElCrazy[/100.111.176.84:50554] logged in with entity id 39282 at (-551.6607119160235, 67.0, -13.915634288950171)
+[25Aug2024 20:29:04.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy joined the game
+[25Aug2024 20:29:04.350] [Server thread/INFO] [Jade/]: Syncing config to KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95)
+[25Aug2024 20:29:04.766] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of KikoElCrazy (18)
+[25Aug2024 20:29:04.767] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to KikoElCrazy
+[25Aug2024 20:29:08.395] [Server thread/INFO] [do_a_barrel_roll/]: Client of KikoElCrazy accepted server config.
+[25Aug2024 20:29:09.178] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
+[25Aug2024 20:29:13.053] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 20:29:14.053] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 20:29:14.054] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95) successfully connected to voice chat
+[25Aug2024 20:29:31.643] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[25Aug2024 20:30:07.506] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Zxn1) moved too quickly! -9.694239632989024,-1.62788969105776,-2.524920833654015
+[25Aug2024 20:30:07.507] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Zxn1) moved too quickly! -9.976244934174474,-1.7785111482254052,-2.6463601223077973
+[25Aug2024 20:30:07.509] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Zxn1) moved too quickly! -10.25029297532194,-2.0,-2.7643772030045852
+[25Aug2024 20:30:07.510] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2787ms or 55 ticks behind
+[25Aug2024 20:30:12.824] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KikoElCrazy lost connection: Disconnected
+[25Aug2024 20:30:12.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy left the game
+[25Aug2024 20:30:12.827] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client KikoElCrazy
+[25Aug2024 20:30:18.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Zxn1) moved too quickly! -6.2113856121671915,2.0,-8.216960035943778
+[25Aug2024 20:30:18.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Zxn1) moved too quickly! -6.466576543962788,2.0,-8.679482444924584
+[25Aug2024 20:30:18.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Zxn1) moved too quickly! -6.721816191969424,3.0,-9.141983388367475
+[25Aug2024 20:30:18.115] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Zxn1) moved too quickly! -6.977081907049296,3.0,-9.604472846029005
+[25Aug2024 20:30:18.156] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Zxn1) moved wrongly! 0.6316395092185303
+[25Aug2024 20:30:24.476] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[25Aug2024 20:30:37.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 20:30:53.985] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[25Aug2024 20:31:05.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [A Strange Grave Dust]
+[25Aug2024 20:31:10.997] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[25Aug2024 20:31:16.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Take Aim]
+[25Aug2024 20:32:00.144] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2071ms or 41 ticks behind
+[25Aug2024 20:32:18.572] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3449ms or 68 ticks behind
+[25Aug2024 20:32:49.991] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[25Aug2024 20:33:05.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 20:33:07.077] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2103ms or 42 ticks behind
+[25Aug2024 20:33:25.841] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3768ms or 75 ticks behind
+[25Aug2024 20:33:27.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported Zxn1 to BEAT04]
+[25Aug2024 20:34:51.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Gave 40 [Baked Potato] to BEAT04]
+[25Aug2024 20:34:58.079] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[25Aug2024 20:35:21.861] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8788ms or 175 ticks behind
+[25Aug2024 20:35:45.707] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8884ms or 177 ticks behind
+[25Aug2024 20:35:49.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported BEAT04 to cranberii3]
+[25Aug2024 20:35:54.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 has made the advancement [Chompy]
+[25Aug2024 20:35:58.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 has made the advancement [Chompy]
+[25Aug2024 20:36:08.582] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7909ms or 158 ticks behind
+[25Aug2024 20:36:31.882] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8309ms or 166 ticks behind
+[25Aug2024 20:36:42.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported BEAT04 to Zxn1]
+[25Aug2024 20:36:47.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported cranberii3 to BEAT04]
+[25Aug2024 20:36:53.009] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6136ms or 122 ticks behind
+[25Aug2024 20:37:10.167] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2194ms or 43 ticks behind
+[25Aug2024 20:37:29.523] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2400ms or 48 ticks behind
+[25Aug2024 20:37:29.633] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BEAT04 moved too quickly! 10.381876185236024,1.3476595788824,-1.7470706639488043
+[25Aug2024 20:37:34.901] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BEAT04 moved too quickly! 9.560771851992058,-1.1387785187695414,-3.5920393719527794
+[25Aug2024 20:37:42.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BEAT04 moved too quickly! 9.031905573731137,4.641390176068612,-0.599702890094818
+[25Aug2024 20:37:49.784] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5260ms or 105 ticks behind
+[25Aug2024 20:37:53.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported Zxn1 to BEAT04]
+[25Aug2024 20:37:57.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported cranberii3 to BEAT04]
+[25Aug2024 20:38:20.307] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2384ms or 47 ticks behind
+[25Aug2024 20:38:37.683] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2410ms or 48 ticks behind
+[25Aug2024 20:38:55.307] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[25Aug2024 20:39:01.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 is bleeding. cranberii3 fell from a high place
+[25Aug2024 20:39:01.798] [Server thread/WARN] [tombstone/]: The death event of the player cranberii3 was canceled by another mod
+[25Aug2024 20:39:01.994] [Server thread/INFO] [tombstone/]: The player cranberii3 has successfully been saved
+[25Aug2024 20:39:06.936] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Zxn1 moved too quickly! 2.5527326546748554,-7.346270382411404,-6.5099881677816995
+[25Aug2024 20:39:25.995] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15722ms or 314 ticks behind
+[25Aug2024 20:39:31.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 has made the advancement [Alex's Caves]
+[25Aug2024 20:39:38.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 has made the advancement [It Belongs in a Museum]
+[25Aug2024 20:39:54.746] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13773ms or 275 ticks behind
+[25Aug2024 20:40:22.919] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13196ms or 263 ticks behind
+[25Aug2024 20:40:26.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 has made the advancement [Amateur Archaeologist]
+[25Aug2024 20:40:41.469] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[25Aug2024 20:41:01.001] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4578ms or 91 ticks behind
+[25Aug2024 20:41:23.153] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7180ms or 143 ticks behind
+[25Aug2024 20:41:41.796] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3673ms or 73 ticks behind
+[25Aug2024 20:42:01.752] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4979ms or 99 ticks behind
+[25Aug2024 20:42:23.597] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6874ms or 137 ticks behind
+[25Aug2024 20:42:27.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 has reached the goal [Bone Crusher]
+[25Aug2024 20:42:45.756] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7183ms or 143 ticks behind
+[25Aug2024 20:43:07.501] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6778ms or 135 ticks behind
+[25Aug2024 20:43:27.157] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4684ms or 93 ticks behind
+[25Aug2024 20:43:28.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 20:43:30.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 20:43:31.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 is bleeding. cranberii3 tried to swim in lava to escape Zombie
+[25Aug2024 20:43:31.153] [Server thread/WARN] [tombstone/]: The death event of the player cranberii3 was canceled by another mod
+[25Aug2024 20:43:31.163] [Server thread/INFO] [tombstone/]: The player cranberii3 has successfully been saved
+[25Aug2024 20:43:35.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported cranberii3 to BEAT04]
+[25Aug2024 20:43:43.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 is bleeding. cranberii3 burned to death
+[25Aug2024 20:43:43.446] [Server thread/WARN] [tombstone/]: The death event of the player cranberii3 was canceled by another mod
+[25Aug2024 20:43:43.525] [Server thread/INFO] [tombstone/]: The player cranberii3 has successfully been saved
+[25Aug2024 20:43:45.088] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2964ms or 59 ticks behind
+[25Aug2024 20:44:03.720] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3647ms or 72 ticks behind
+[25Aug2024 20:44:21.456] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2783ms or 55 ticks behind
+[25Aug2024 20:44:40.761] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4337ms or 86 ticks behind
+[25Aug2024 20:45:01.223] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5500ms or 110 ticks behind
+[25Aug2024 20:45:20.496] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4273ms or 85 ticks behind
+[25Aug2024 20:45:39.007] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3534ms or 70 ticks behind
+[25Aug2024 20:45:49.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 is bleeding. BEAT04 was shot by Skeleton
+[25Aug2024 20:45:49.947] [Server thread/WARN] [tombstone/]: The death event of the player BEAT04 was canceled by another mod
+[25Aug2024 20:45:50.007] [Server thread/INFO] [tombstone/]: The player BEAT04 has successfully been saved
+[25Aug2024 20:45:55.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 is bleeding. BEAT04 was shot by Skeleton
+[25Aug2024 20:45:55.588] [Server thread/WARN] [tombstone/]: The death event of the player BEAT04 was canceled by another mod
+[25Aug2024 20:45:55.685] [Server thread/INFO] [tombstone/]: The player BEAT04 has successfully been saved
+[25Aug2024 20:45:57.305] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3332ms or 66 ticks behind
+[25Aug2024 20:45:58.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 is bleeding. BEAT04 was shot by Skeleton
+[25Aug2024 20:45:58.620] [Server thread/WARN] [tombstone/]: The death event of the player BEAT04 was canceled by another mod
+[25Aug2024 20:45:58.721] [Server thread/INFO] [tombstone/]: The player BEAT04 has successfully been saved
+[25Aug2024 20:46:02.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 is bleeding. BEAT04 was shot by Skeleton
+[25Aug2024 20:46:02.541] [Server thread/WARN] [tombstone/]: The death event of the player BEAT04 was canceled by another mod
+[25Aug2024 20:46:02.594] [Server thread/INFO] [tombstone/]: The player BEAT04 has successfully been saved
+[25Aug2024 20:46:16.109] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3836ms or 76 ticks behind
+[25Aug2024 20:46:34.096] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3022ms or 60 ticks behind
+[25Aug2024 20:46:53.723] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4650ms or 93 ticks behind
+[25Aug2024 20:47:13.417] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4694ms or 93 ticks behind
+[25Aug2024 20:47:33.434] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5061ms or 101 ticks behind
+[25Aug2024 20:47:51.278] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2855ms or 57 ticks behind
+[25Aug2024 20:48:09.094] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2821ms or 56 ticks behind
+[25Aug2024 20:48:09.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 is bleeding. BEAT04 was blown up by Creeper
+[25Aug2024 20:48:09.793] [Server thread/WARN] [tombstone/]: The death event of the player BEAT04 was canceled by another mod
+[25Aug2024 20:48:09.839] [Server thread/INFO] [tombstone/]: The player BEAT04 has successfully been saved
+[25Aug2024 20:48:27.361] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3288ms or 65 ticks behind
+[25Aug2024 20:48:44.397] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
+[25Aug2024 20:49:02.600] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3227ms or 64 ticks behind
+[25Aug2024 20:49:20.250] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2677ms or 53 ticks behind
+[25Aug2024 20:49:23.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 has made the advancement [Not Today, Thank You]
+[25Aug2024 20:49:44.886] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[25Aug2024 20:50:03.844] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2071ms or 41 ticks behind
+[25Aug2024 20:50:31.508] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12685ms or 253 ticks behind
+[25Aug2024 20:50:55.805] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9332ms or 186 ticks behind
+[25Aug2024 20:51:13.437] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2664ms or 53 ticks behind
+[25Aug2024 20:51:36.375] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[25Aug2024 20:51:53.534] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2161ms or 43 ticks behind
+[25Aug2024 20:52:17.171] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[25Aug2024 20:52:34.604] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[25Aug2024 20:52:37.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 is bleeding. BEAT04 was shot by Stray
+[25Aug2024 20:52:37.340] [Server thread/WARN] [tombstone/]: The death event of the player BEAT04 was canceled by another mod
+[25Aug2024 20:52:37.399] [Server thread/INFO] [tombstone/]: The player BEAT04 has successfully been saved
+[25Aug2024 20:52:40.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zxn1 has reached the goal [Fortuitous Militia]
+[25Aug2024 20:52:59.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[25Aug2024 20:53:19.788] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[25Aug2024 20:53:37.073] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2300ms or 46 ticks behind
+[25Aug2024 20:53:57.789] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[25Aug2024 20:54:17.945] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[25Aug2024 20:54:37.465] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4542ms or 90 ticks behind
+[25Aug2024 20:55:35.880] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[25Aug2024 20:55:54.340] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[25Aug2024 20:56:12.464] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3141ms or 62 ticks behind
+[25Aug2024 20:56:30.160] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[25Aug2024 20:56:48.681] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2208ms or 44 ticks behind
+[25Aug2024 20:57:03.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported cranberii3 to BEAT04]
+[25Aug2024 20:57:23.290] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[25Aug2024 20:57:41.286] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[25Aug2024 20:57:53.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 is bleeding. cranberii3 was slain by Spider
+[25Aug2024 20:57:53.810] [Server thread/WARN] [tombstone/]: The death event of the player cranberii3 was canceled by another mod
+[25Aug2024 20:57:53.875] [Server thread/INFO] [tombstone/]: The player cranberii3 has successfully been saved
+[25Aug2024 20:58:31.628] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:58:31.636] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[25Aug2024 20:58:31.639] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KikoElCrazy[/100.111.176.84:52213] logged in with entity id 55711 at (-551.6607119160235, 67.0, -13.915634288950171)
+[25Aug2024 20:58:31.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KikoElCrazy joined the game
+[25Aug2024 20:58:31.705] [Server thread/INFO] [Jade/]: Syncing config to KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95)
+[25Aug2024 20:58:32.020] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2097ms or 41 ticks behind
+[25Aug2024 20:58:32.990] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of KikoElCrazy (18)
+[25Aug2024 20:58:32.990] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to KikoElCrazy
+[25Aug2024 20:58:33.523] [Server thread/INFO] [do_a_barrel_roll/]: Client of KikoElCrazy accepted server config.
+[25Aug2024 20:58:33.701] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 20:58:35.452] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2d023440-602c-388e-91bb-761096e48a95
+[25Aug2024 20:58:35.455] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player KikoElCrazy (2d023440-602c-388e-91bb-761096e48a95) successfully connected to voice chat
+[25Aug2024 20:58:56.980] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10006ms or 200 ticks behind
+[25Aug2024 20:59:19.471] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7498ms or 149 ticks behind
+[25Aug2024 20:59:22.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Instrumental Mobs]
+[25Aug2024 20:59:40.655] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6232ms or 124 ticks behind
+[25Aug2024 20:59:53.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported KikoElCrazy to ViralataJr]
+[25Aug2024 20:59:57.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Acquire Hardware]
+[25Aug2024 21:00:02.250] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6627ms or 132 ticks behind
+[25Aug2024 21:00:21.508] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4285ms or 85 ticks behind
+[25Aug2024 21:00:41.696] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5223ms or 104 ticks behind
+[25Aug2024 21:00:59.894] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3221ms or 64 ticks behind
+[25Aug2024 21:01:25.721] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BEAT04 moved too quickly! -7.9964095318900945,6.0,0.4074642607526826
+[25Aug2024 21:01:25.875] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cranberii3 moved too quickly! 7.7853211517469845,-6.495200877005911,0.4346222785657119
+[25Aug2024 21:01:32.491] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17618ms or 352 ticks behind
+[25Aug2024 21:01:42.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Not Today, Thank You]
+[25Aug2024 21:02:04.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Knowledge of Death]
+[25Aug2024 21:02:04.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ViralataJr has made the advancement [Ashes 'n Bones]
+[25Aug2024 21:02:05.240] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17767ms or 355 ticks behind
+[25Aug2024 21:02:21.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cranberii3 is bleeding. cranberii3 was slain by Cave Spider
+[25Aug2024 21:02:21.507] [Server thread/WARN] [tombstone/]: The death event of the player cranberii3 was canceled by another mod
+[25Aug2024 21:02:21.518] [Server thread/INFO] [tombstone/]: The player cranberii3 has successfully been saved
+[25Aug2024 21:02:24.400] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4177ms or 83 ticks behind
+[25Aug2024 21:02:30.718] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:pillager_outpost took 1679 ms
+[25Aug2024 21:02:30.803] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ViralataJr moved too quickly! -7.637100435240598,-1.2491870787446828,6.569213180860885
+[25Aug2024 21:02:47.551] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8178ms or 163 ticks behind
+[25Aug2024 21:03:07.544] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[25Aug2024 21:03:25.884] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3361ms or 67 ticks behind
+[25Aug2024 21:03:45.904] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5030ms or 100 ticks behind
+[25Aug2024 21:04:05.431] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4558ms or 91 ticks behind
+[25Aug2024 21:04:23.018] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2595ms or 51 ticks behind
+[25Aug2024 21:04:40.949] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2976ms or 59 ticks behind
+[25Aug2024 21:04:58.050] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2127ms or 42 ticks behind
+[25Aug2024 21:05:20.407] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[25Aug2024 21:05:44.327] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[25Aug2024 21:05:45.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported cranberii3 to BEAT04]
+[25Aug2024 21:06:16.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 21:06:21.594] [Worker-Main-1/INFO] [ModernFix/]: Instantiating Mojang DFU
+[25Aug2024 21:06:42.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Teleported BEAT04 to 2624.500000, 110.000000, -927.500000]
+[25Aug2024 21:06:42.115] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22592ms or 451 ticks behind
+[25Aug2024 21:06:42.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ViralataJr moved too quickly! 8.568401576724568,-2.121296840539202,5.226026838186584
+[25Aug2024 21:06:42.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Survival Mode]
+[25Aug2024 21:06:43.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 has made the advancement [Intruder Alert]
+[25Aug2024 21:06:44.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BEAT04 is bleeding. BEAT04 fell from a high place
+[25Aug2024 21:06:44.491] [Server thread/WARN] [tombstone/]: The death event of the player BEAT04 was canceled by another mod
+[25Aug2024 21:06:44.575] [Server thread/INFO] [tombstone/]: The player BEAT04 has successfully been saved
+[25Aug2024 21:06:46.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BEAT04: Set own game mode to Spectator Mode]
+[25Aug2024 21:07:31.480] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 2d023440-602c-388e-91bb-761096e48a95 timed out
+[25Aug2024 21:07:31.482] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player KikoElCrazy
+[25Aug2024 21:07:31.483] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to KikoElCrazy
+[25Aug2024 21:07:31.485] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a5b904dd-05c3-3759-9b11-ab5cc6b329ee timed out
+[25Aug2024 21:07:31.486] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player ViralataJr
+[25Aug2024 21:07:31.492] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to ViralataJr
+[25Aug2024 21:07:38.522] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 916b8d07-f619-3b77-9447-c3eb1e88a6e2 timed out
+[25Aug2024 21:07:38.522] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player cranberii3
+[25Aug2024 21:07:38.524] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to cranberii3
+[25Aug2024 21:07:42.554] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1ff189ef-e072-384a-819d-09fe7f958a09 timed out
+[25Aug2024 21:07:42.556] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player Zxn1
+[25Aug2024 21:07:42.558] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to Zxn1
+[25Aug2024 21:07:42.559] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player d475b672-0b3a-38f1-8067-b1c696a6be64 timed out
+[25Aug2024 21:07:42.559] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player BEAT04
+[25Aug2024 21:07:42.560] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to BEAT04
+[25Aug2024 21:07:56.424] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: A single server tick took 60.00 seconds (should be max 0.05)
+[25Aug2024 21:07:56.425] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[25Aug2024 21:07:57.056] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID fcd63e9e-cc85-4719-a874-15951bc7ac51
+[25Aug2024 21:07:57.123] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID d1605a17-b81f-45ce-86ff-46008185fd3b
+[25Aug2024 21:07:57.126] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/]: This crash report has been saved to: /workspaces/2week-pt2.5/servidor_minecraft/./crash-reports/crash-2024-08-25_21.07.57-server.txt
+[25Aug2024 21:07:59.499] [spark-async-sampler-worker-thread/WARN] [spark/]: Timed out waiting for world statistics
